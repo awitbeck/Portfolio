@@ -84,25 +84,27 @@ div#flashanimation_small {
 /* line 113, ../scss/index.scss */
 div#flashanimation_small h1 {
   color: #e85462;
+  letter-spacing: -3px;
+  font-size: 93px;
 }
 
-/* line 119, ../scss/index.scss */
+/* line 121, ../scss/index.scss */
 .logosmall {
   padding-top: 10px;
   padding-bottom: 50px;
 }
 
-/* line 124, ../scss/index.scss */
+/* line 126, ../scss/index.scss */
 div#contact {
   padding-top: 90px;
 }
 
-/* line 131, ../scss/index.scss */
+/* line 133, ../scss/index.scss */
 div#myModal {
   max-height: 500px;
 }
 
-/* line 141, ../scss/index.scss */
+/* line 143, ../scss/index.scss */
 div#contact_small h2 {
   padding-top: 30px;
   font-size: 40px;
@@ -110,30 +112,30 @@ div#contact_small h2 {
 
 /*////////////////////MEDIUM/////////////*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 158, ../scss/index.scss */
+  /* line 160, ../scss/index.scss */
   div#webdesign h1 {
     font-size: 95px;
     letter-spacing: -3px;
   }
 
-  /* line 167, ../scss/index.scss */
+  /* line 169, ../scss/index.scss */
   div#mobiledesign h1 {
     font-size: 95px;
     letter-spacing: -3px;
   }
 
-  /* line 179, ../scss/index.scss */
+  /* line 181, ../scss/index.scss */
   div#flashanimation h1 {
     letter-spacing: -4px;
     font-size: 70px;
     margin-right: 20px;
   }
-  /* line 186, ../scss/index.scss */
+  /* line 188, ../scss/index.scss */
   div#flashanimation p {
     min-width: 130px;
     max-width: 230px;
   }
-  /* line 192, ../scss/index.scss */
+  /* line 194, ../scss/index.scss */
   div#flashanimation video {
     margin-left: 0px;
   }
