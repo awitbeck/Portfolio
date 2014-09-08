@@ -1944,19 +1944,19 @@ border-style:none;
 											}
 
 
-.tparrows.preview4 .tp-arr-imgholder2 		{	display:block;background-size:cover; background-position:center center; width:180px;height:110px;
+.tparrows.preview4 .tp-arr-imgholder2 		{	display:none;background-size:cover; background-position:center center; width:180px;height:110px;
 												position:absolute;top:0px; left:180px;
 												-webkit-backface-visibility: hidden;
 												backface-visibility: hidden;
 
 											}
 
-.tp-leftarrow.preview4 .tp-arr-imgholder2 	{	left:-180px}
+.tp-leftarrow.preview4 .tp-arr-imgholder2 	{	display:none;}
 
 
 
 
-.tparrows.preview4 .tp-arr-titleholder		{	display:block; font-size:12px; line-height:25px; padding:0px 10px;text-align:left;color:#fff; position: relative;
+.tparrows.preview4 .tp-arr-titleholder		{	display:none; font-size:12px; line-height:25px; padding:0px 10px;text-align:left;color:#fff; position: relative;
 												background: #000;
 												color: #FFF;
 												text-transform: uppercase;
