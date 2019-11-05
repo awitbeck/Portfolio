@@ -140,7 +140,7 @@ div#contact_small h2 {
     margin-left: 0px;
   }
   
-    div#flashanimation  .brsmall { 
+    div#flashanimation  brsmall { 
             display: block; 
             margin-bottom: 10px; 
         } 
