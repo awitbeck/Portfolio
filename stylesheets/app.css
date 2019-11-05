@@ -73,9 +73,7 @@ div#flashanimation h1 {
   font-size: 105px;
 }
 /* line 103, ../scss/index.scss */
-div#flashanimation p {
-  margin-right: -20px;
-}
+
 
 div#flashanimation  br { 
     display: block; 
