@@ -77,6 +77,11 @@ div#flashanimation p {
   margin-right: -20px;
 }
 
+div#flashanimation  br { 
+    display: block; 
+    margin: 0px; 
+        }
+
 /* line 110, ../scss/index.scss */
 div#flashanimation_small {
   padding-top: 50px;
@@ -87,6 +92,8 @@ div#flashanimation_small h1 {
   letter-spacing: -3px;
   font-size: 93px;
 }
+
+
 
 /* line 121, ../scss/index.scss */
 .logosmall {
