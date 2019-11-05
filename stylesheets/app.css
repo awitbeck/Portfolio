@@ -79,7 +79,7 @@ div#flashanimation p {
 
 div#flashanimation  br { 
     display: block; 
-    margin: 0px; 
+    margin: -3px; 
         }
 
 /* line 110, ../scss/index.scss */
@@ -149,7 +149,7 @@ div#contact_small h2 {
   
     div#flashanimation  br { 
             display: block; 
-            margin: 0px; 
+            margin: -3px; 
         } 
   
 }
