@@ -139,6 +139,12 @@ div#contact_small h2 {
   div#flashanimation video {
     margin-left: 0px;
   }
+  
+    div#flashanimation  .brsmall { 
+            display: block; 
+            margin-bottom: -.2em; 
+        } 
+  
 }
 /* line 316, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
