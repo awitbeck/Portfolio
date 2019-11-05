@@ -138,10 +138,7 @@ div#contact_small h2 {
     margin-right: 20px;
   }
   /* line 188, ../scss/index.scss */
-  div#flashanimation p {
-    min-width: 130px;
-    max-width: 230px;
-  }
+
   /* line 194, ../scss/index.scss */
   div#flashanimation video {
     margin-left: 0px;
