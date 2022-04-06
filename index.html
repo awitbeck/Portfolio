@@ -441,7 +441,7 @@
     <label for="email-address">Email Address</label>
     <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
     <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="dfdfdfdf" required=""></textarea>
+    <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
   <input type="submit" value="Submit">
@@ -800,7 +800,18 @@
 
 
   <!-- embed code here -->
-<div id="wufoo-zvlvjy51jc0z8z"> Fill out my <a href="https://awitbeck.wufoo.com/forms/zvlvjy51jc0z8z">online form</a>. </div> <script type="text/javascript"> var zvlvjy51jc0z8z; (function(d, t) { var s = d.createElement(t), options = { 'userName':'awitbeck', 'formHash':'zvlvjy51jc0z8z', 'autoResize':true, 'height':'522', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { zvlvjy51jc0z8z = new WufooForm(); zvlvjy51jc0z8z.initialize(options); zvlvjy51jc0z8z.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mnqwbenq" method="POST">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
 
       <a class="close-reveal-modal">&#215;</a>
      </div>
